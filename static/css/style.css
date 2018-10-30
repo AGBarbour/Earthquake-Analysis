@@ -9,3 +9,47 @@ html {
   height: 100%;
 }
 
+.leaflet-popup-content {
+  text-align: center;
+}
+
+/* CSS from the Leaflet-Choropleth documentation */
+.legend {
+  padding: 6px 8px;
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #555;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend ul {
+  padding: 0;
+  margin: 0;
+  clear: both;
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.legend li {
+  display: block;
+  width: 25px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+.legend .number {
+  margin-left: 10px;
+  line-height: 30px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+
